@@ -13,10 +13,11 @@ L1nkr is a simple LinkTree type [Hugo](https://gohugo.io) theme. The theme is de
 
 ## Installation
 
-1) Make sure you have [Hugo](https://gohugo.io/installation/) and Go isntalled on your local machine.
+1) Make sure you have Hugo and Go isntalled on your local machine. Read the instructions [here](https://gohugo.io/installation/).
 2) Follow this link to the theme [template](https://github.com/Chrede88/L1nkrTemplate).
-3) Follow the installation instructions in this repo. They are listed below for reference.
+3) Follow the installation instructions in the template repo. They are listed below for reference.
 
+### Template istallation instructions (Only for reference) 
 1) Use this template by pressing `Use this template`.
 2) Clone your version of the template to your local computer:
 ```shell
