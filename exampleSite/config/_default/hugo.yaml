@@ -11,8 +11,7 @@ title: 'L1nkr'
 
 module:
   imports:
-    - path: /Users/cjso/git/Github/L1nkr/
-
+    - path: github.com/Chrede88/L1nkr/
 
 ############################
 ## MISC
