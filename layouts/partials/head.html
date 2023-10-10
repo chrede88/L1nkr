@@ -1,0 +1,33 @@
+{{/* General tags */}}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="L1nkr theme for Hugo">
+
+{{/* Site title */}}
+{{- $title := .Site.Title | default "L1inkr" -}}
+<title>{{ $title }}</title>
+<meta name="title" content="{{ $title }}">
+
+{{/* Crator tag */}}
+{{ with .Site.Params.Author.name }}<meta name="author" content="{{ . }}">{{ end }}
+
+{{/* CSS bundle */}}
+{{ $assets := newScratch }}
+{{ $mainCSS := resources.Get "css/compiled/main.css" }}
+{{ $assets.Add "css" (slice $mainCSS) }}
+{{ $customCSS := resources.Get "css/custom.css" }}
+{{ if $customCSS }}
+  {{ $assets.Add "css" (slice $customCSS) }}
+{{ end }}
+{{ $bundleCSS := $assets.Get "css" | resources.Concat "css/main.bundle.css" | resources.Minify | resources.Fingerprint "sha512" }}
+<link type="text/css" rel="stylesheet" href="{{ $bundleCSS.RelPermalink }}" integrity="{{ $bundleCSS.Data.Integrity }}"/>
+
+{{/* Favicon */}}
+{{ $icon := resources.GetMatch "icon.*" }}
+{{ with $icon }}
+  {{ $iconApple := $icon.Resize "180x180" }}
+  {{ $icon := $icon.Resize "32x32" }}
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ $iconApple.RelPermalink }}"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ $icon.RelPermalink }}"/>
+{{ end }}

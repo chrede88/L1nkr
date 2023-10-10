@@ -1,0 +1,53 @@
+############################
+## Author
+############################
+
+author:
+  name: "L1nkr"
+  image: "author.jpeg"
+  greeting: "A simple LinkTree theme for Hugo :evergreen_tree:"
+
+############################
+## Links
+############################
+
+links:
+  - github: https://github.com/chrede88/
+  - gitlab: https://github.com/chrede88/
+  - facebook: https://github.com/chrede88/
+  - x-twitter: https://github.com/chrede88/
+  - mastodon: https://github.com/chrede88/
+  - linkedin: https://github.com/chrede88/
+  - instagram: https://github.com/chrede88/
+  - reddit: https://github.com/chrede88/
+  - telegram: https://github.com/chrede88/
+  - whatsapp: https://github.com/chrede88/
+  - signal: https://github.com/chrede88/
+  - codepen: https://github.com/chrede88/
+  - dev: https://github.com/chrede88/
+  - email: https://github.com/chrede88/
+  - website: https://github.com/chrede88/
+  - link: https://github.com/chrede88/
+  - discord: https://github.com/chrede88/
+  - orcid: https://github.com/chrede88/
+  - slack: https://github.com/chrede88/
+  - stack-overflow: https://github.com/chrede88/
+  - twitch: https://github.com/chrede88/
+  - patreon: https://github.com/chrede88/
+  - soundcloud: https://github.com/chrede88/
+  - dribbble: https://github.com/chrede88/
+  # - stack-exchange: https://github.com/chrede88/
+  # - tiktok: https://github.com/chrede88/
+  # - youtube: https://github.com/chrede88/
+  # - keybase: https://github.com/chrede88/
+  # - flickr: https://github.com/chrede88/
+  # - tumblr: https://github.com/chrede88/
+  # - kickstarter: https://github.com/chrede88/
+  # - snapchat: https://github.com/chrede88/
+
+############################
+## Colunms of Links
+############################
+
+# between 2 & 6 columns are supported (both incl)
+columns: 6

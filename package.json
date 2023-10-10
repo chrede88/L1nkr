@@ -1,0 +1,27 @@
+{
+  "name": "l1nkr",
+  "version": "1.0.0",
+  "description": "L1nkr theme for Hugo",
+  "main": "index.js",
+  "scripts": {
+    "build-tailwind": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/compiled/main.css",
+    "dev-tailwind": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/compiled/main.css --watch",
+    "example-site": "hugo server --source ./exampleSite --themesDir ../.."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrede88/l1nkr.git"
+  },
+  "homepage": "https://github.com/chrede88/l1nkr#readme",
+  "keywords": [
+    "Hugo",
+    "linktree",
+    "minimal",
+    "tailwind"
+  ],
+  "author": "Christian Olsen",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

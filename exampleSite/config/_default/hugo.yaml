@@ -1,0 +1,25 @@
+############################
+## CHANGE THESE
+############################
+
+baseURL: 'https://chrede88.github.io/L1nkr'
+title: 'L1nkr'
+
+############################
+## MODULES
+############################
+
+module:
+  imports:
+    - path: /Users/cjso/git/Github/L1nkr/
+
+
+############################
+## MISC
+############################
+
+enableEmoji: true
+disableKinds: ['taxonomy', 'term']
+languageCode: 'en-us'
+
+

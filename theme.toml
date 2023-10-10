@@ -1,0 +1,19 @@
+name = 'L1nkr'
+license = 'MIT'
+licenselink = 'https://github.com/chrede88/L1nkr/LICENSE'
+description = 'Minimal linktree Hugo theme'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/chrede88/L1nkr'
+
+# If you have a running demo of the theme
+demosite = 'https://chrede88.github.io/L1nkr'
+
+# Taxonomy terms
+tags = ['Linktree', 'hugo']
+features = ['minimal', 'linktree', 'tailwindcss']
+
+# If the theme has a single author
+[author]
+  name = 'Christian Olsen'
+  homepage = 'https://cjsolsen.com'

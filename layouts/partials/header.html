@@ -1,0 +1,27 @@
+<div class="flex flex-col justify-center mt-20 mb-2">
+  {{/* Add image and site title */}}
+  {{ $image := resources.GetMatch .Site.Params.Author.image }}
+  {{ $name := .Site.Params.Author.name }}
+  {{ with $image }}
+    {{ $image := $image.Resize "288x288" }}
+  <div class="flex justify-center">
+    <img
+      class="mb-2 rounded-full h-48 w-48"
+      width="192"
+      height="192"
+      alt="{{ $name | default "Author" }}"
+      src="{{ $image.RelPermalink }}"
+    >
+  </div>
+  {{ end }}
+        
+  <h1 class="text-4xl font-extrabold text-slate-500 dark:text-slate-200 text-center">
+    {{ .Site.Title | emojify }}
+  </h1>
+
+  {{ with .Site.Params.Author.greeting }}
+    <h2 class="text-xl text-slate-700 dark:text-slate-400 text-center mt-4">
+      {{ . | markdownify | emojify }}
+    </h2>
+  {{ end }}
+</div>

@@ -1,0 +1,10 @@
+# Tailwind directories
+ node_modules/
+
+# Hugo stuff
+.hugo_build.lock
+**/public/
+**/resources/_gen/
+
+# Apple stuff
+.DS_Store

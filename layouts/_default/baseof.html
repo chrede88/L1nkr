@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{{- $lang_code := site.LanguageCode | default "en-us" -}}
+<html lang="{{ $lang_code }}">
+<head>
+  {{ partial "head" . }}
+</head>
+<body class="flex flex-col h-screen justify-between bg-neutral-100 dark:bg-neutral-800">
+  <div class="">
+    <header>
+      {{ partial "header" . }}
+    </header>
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+  </div>
+  <footer>
+    {{ partial "footer" . }}
+  </footer>
+</body>
+</html>
