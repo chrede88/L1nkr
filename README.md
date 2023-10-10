@@ -1,6 +1,6 @@
 # L1nkr - Simple LinkTree Hugo Theme
 ![L1nkr - Simple LinkTree Hugo Theme](https://raw.githubusercontent.com/chrede88/l1nkr/main/images/screenshot.png)
-L1nkr is a simple LinkTree type [Hugo](https://gohugo.io) theme. The theme is designed mobile-first, with an very intuative interface. Get your L1nkr site online in less than 30min, using the [Github template]().
+L1nkr is a simple LinkTree type [Hugo](https://gohugo.io) theme. The theme is designed mobile-first, with an very intuative interface. Get your L1nkr site online in less than 30min, using the [L1nkr template](https://github.com/Chrede88/L1nkrTemplate).
 
 ## Features
 
@@ -13,6 +13,20 @@ L1nkr is a simple LinkTree type [Hugo](https://gohugo.io) theme. The theme is de
 
 ## Installation
 
+1) Make sure you have [Hugo](https://gohugo.io/installation/) and Go isntalled on your local machine.
+2) Follow this link to the theme [template](https://github.com/Chrede88/L1nkrTemplate).
+3) Follow the installation instructions in this repo. They are listed below for reference.
+
+1) Use this template by pressing `Use this template`.
+2) Clone your version of the template to your local computer:
+```shell
+git clone https://github.com/<username>/<reponame>
+```
+3) Modify `config/_default/hugo.yaml` and `config/_default/params.yaml` according to the Configuration below.
+4) In a terminal/commandline, move to the newly created folder using `cd`.
+5) Build a local version of your site by executing `hugo server`. You can see the site by navigating to `localhost:1313` in a browser.
+6) Add a new image to the `assets/` folder, using the same name as you specified in `params.yaml`.
+7) Add a new `icon.png` file to update the favicon. The png file should be 512px by 512px in size.
 
 ---
 
