@@ -22,7 +22,7 @@ All configuration is done in the two configuration files under `config/_default/
 
 `hugo.yaml`:
 ```yaml
-baseURL: 'https://chrede88.github.io/L1nkr'
+baseURL: 'https://username.github.io/L1nkr'
 title: 'L1nkr'
 ```
 
@@ -41,12 +41,13 @@ links:
 Links are defined by the name (i.e. "github" or "facebook"). The names must match one of the supported links, see list below.
 
 ### Supported Links
-
+| **Support Links** | **Support Links** | **Support Links** | **Support Links** |
+| --- | --- | --- | --- |
 | github | gitlab | facebook | x-twitter |
 | mastodon | linkedin | instagram | reddit |
 | telegram | whatsapp | signal | codepen |
 | dev | discord | orcid | slack |
-| stack-overflow | stack-exchange | twitch: | patreon |
+| stack-overflow | stack-exchange | twitch | patreon |
 | soundcloud | dribbble | tiktok | youtube |
 | keybase | flickr | tumblr | kickstarter |
 | snapchat | | | |
