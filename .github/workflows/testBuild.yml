@@ -1,15 +1,13 @@
-name: GitHub Pages
+name: Test Build exampleSite
 
 on:
-  release:
-    types: [published]
+  push:
+    branches:
+      - main
 
 jobs:
-  build-deploy:
-    permissions:
-     contents: write
-     
-    name: Build and Deploy
+  build-deploy: 
+    name: Test Build exampleSite
     runs-on: ubuntu-22.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
@@ -29,10 +27,3 @@ jobs:
       - name: Build
         working-directory: ./exampleSite
         run: hugo --minify --themesDir ../.. --baseURL https://chrede88.github.io/L1nkr/
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./exampleSite/public
