@@ -30,7 +30,7 @@ jobs:
 
       - name: Build
         working-directory: ./exampleSite
-        run: hugo --minify --themesDir ../.. --baseURL https://chrede88.github.io/l1nkr/
+        run: hugo --minify --themesDir ../.. --baseURL https://chrede88.github.io/L1nkr/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
