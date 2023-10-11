@@ -27,10 +27,6 @@ jobs:
           hugo-version: "0.119.0"
           extended: true
           
-      - name: Update go.mod
-        working-directory: ./exampleSite
-        run: hugo mod get github.com/Chrede88/L1nkr
-        
       - name: Build
         working-directory: ./exampleSite
         run: hugo --minify --themesDir ../.. --baseURL https://chrede88.github.io/L1nkr/
