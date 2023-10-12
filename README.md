@@ -1,9 +1,9 @@
 # L1nkr - Simple LinkTree Hugo Theme
 ![L1nkr - Simple LinkTree Hugo Theme](https://raw.githubusercontent.com/chrede88/l1nkr/main/images/screenshot.png)
-<p align="center">
-  ![Main Branch Build](https://github.com/Chrede88/L1nkr/actions/workflows/testBuild.yml/badge.svg)
-  ![Release Build](https://github.com/Chrede88/L1nkr/actions/workflows/exampleSite.yml/badge.svg)
-</p>
+
+![Main Branch Build](https://github.com/Chrede88/L1nkr/actions/workflows/testBuild.yml/badge.svg)
+![Release Build](https://github.com/Chrede88/L1nkr/actions/workflows/exampleSite.yml/badge.svg)
+
 L1nkr is a simple LinkTree type [Hugo](https://gohugo.io) theme. The theme is designed mobile-first, with a very intuitive interface. Get your L1nkr site up and running quickly by using the [L1nkr template](https://github.com/Chrede88/L1nkrTemplate).
 
 ## Features
