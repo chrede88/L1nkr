@@ -8,8 +8,8 @@ updates:
   - package-ecosystem: "npm" 
     directory: "/"
     schedule:
-      interval: "weekly"
-      time: "06:00"
+      interval: "daily"
+      time: "16:30"
       timezone: "Europe/Zurich"
     commit-message:
       prefix: "📌"
@@ -20,9 +20,8 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "sunday"
-      time: "06:00"
+      interval: "daily"
+      time: "16:30"
       timezone: "Europe/Zurich"
     commit-message:
       prefix: "👷"
