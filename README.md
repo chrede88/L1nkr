@@ -10,7 +10,7 @@ L1nkr is a simple LinkTree type [Hugo](https://gohugo.io) theme. The theme is de
 
 ## Features
 
-- Simple LinkTree theme, design for mobile-first.
+- Simple LinkTree theme, designed for mobile-first.
 - Automatic dark mode (based on system setttings).
 - Emoji support for a fun design.
 - More than 30 supported brand links.
@@ -58,6 +58,8 @@ author:
 links:
   - github: https://github.com/username/
   - facebook: https://facebook.com/
+
+columns: 3
 ```
 
 Links are defined by the name (i.e. "github" or "facebook"). The names must match one of the supported links, see list below.
@@ -73,3 +75,23 @@ Links are defined by the name (i.e. "github" or "facebook"). The names must matc
 | soundcloud | dribbble | tiktok | youtube |
 | keybase | flickr | tumblr | kickstarter |
 | snapchat | email | link | website |
+
+## Update the Theme Version
+
+This guide is left here for reference. Please check the [template](https://github.com/Chrede88/L1nkrTemplate#readme) repo for the most up-to-date documentation.
+
+The theme version used to build the site is defined in `go.mod` file.
+
+The best practice is to update to released and tested versions. To update to a specific version execute the following command in a terminal/commandline (at the root path of your site repo):
+
+```shell
+  hugo mod get github.com/Chrede88/L1nkr@vX.Y.Z
+```
+Replace X,Y & Z with the corresponding version numbers. You can find the releases [here](https://github.com/Chrede88/L1nkr/releases). Please check if any breaking changes are listed under the release you want to update to, before proceeding.
+
+### Danger Zone
+If you like to live on the edge, you can get the lastest commit by using the following command:
+```shell
+  hugo mod get -u github.com/Chrede88/L1nkr
+```
+This might break your site, as these commits might not have been tested yet.
