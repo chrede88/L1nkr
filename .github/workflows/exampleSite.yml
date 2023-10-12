@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: Example Site Build
 
 on:
   release:
