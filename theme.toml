@@ -10,7 +10,7 @@ homepage = 'https://github.com/chrede88/L1nkr'
 demosite = 'https://chrede88.github.io/L1nkr'
 
 # Taxonomy terms
-tags = ['Linktree', 'hugo']
+tags = ['Linktree','hugo','minimal','responsive','dark','light','dark mode']
 features = ['minimal', 'linktree', 'tailwindcss']
 
 # If the theme has a single author
