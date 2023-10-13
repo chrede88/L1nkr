@@ -26,8 +26,8 @@ links:
   - codepen: https://github.com/chrede88/L1nkr
   - dev: https://github.com/chrede88/L1nkr
   - email: https://github.com/chrede88/L1nkr
-  - website: https://github.com/chrede88/L1nkr
-  - link: https://github.com/chrede88/L1nkr
+  # - website: https://github.com/chrede88/L1nkr
+  # - link: https://github.com/chrede88/L1nkr
   - discord: https://github.com/chrede88/L1nkr
   - orcid: https://github.com/chrede88/L1nkr
   - slack: https://github.com/chrede88/L1nkr
@@ -44,6 +44,17 @@ links:
   # - tumblr: https://github.com/chrede88/
   # - kickstarter: https://github.com/chrede88/
   # - snapchat: https://github.com/chrede88/
+  # - bluesky: https://bsky.app
+  # - bitbucket: https://github.com/chrede88/
+  # - bandcamp: https://github.com/chrede88/
+  # - etsy: https://github.com/chrede88/
+  - spotify: https://github.com/chrede88/
+  # - pinterest: https://github.com/chrede88/
+  - strava: https://github.com/chrede88/
+  # - untappd: https://github.com/chrede88/
+  # - skype: https://github.com/chrede88/
+  # - medium: https://github.com/chrede88/
+  # - foursquare: https://github.com/chrede88/
 
 ############################
 ## Colunms of Links
