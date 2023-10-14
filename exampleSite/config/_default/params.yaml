@@ -4,7 +4,7 @@
 
 author:
   name: "L1nkr"
-  image: "author.jpeg"
+  image: author.jpeg
   greeting: "A simple LinkTree theme for Hugo :evergreen_tree:"
 
 ############################
@@ -62,3 +62,12 @@ links:
 
 # between 2 & 6 columns are supported (both incl)
 columns: 6
+
+###############################
+## OpenGraph & Twitter Cards
+###############################
+
+title: "L1nkr"
+description: "Demo site build with L1nkr & Hugo"
+images:
+  - thumbnail.jpeg

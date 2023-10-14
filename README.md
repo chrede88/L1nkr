@@ -50,16 +50,38 @@ title: 'L1nkr'
 
 `params.yaml`:
 ```yaml
+############################
+## Author
+############################
+
 author:
   name: "L1nkr"
   image: "author.jpeg"
   greeting: "A simple LinkTree theme for Hugo :evergreen_tree:"
 
+############################
+## Links
+############################
+
 links:
   - github: https://github.com/username/
   - facebook: https://facebook.com/
 
+############################
+## Colunms of Links
+############################
+
+# between 2 & 6 columns are supported (both incl)
 columns: 3
+
+###############################
+## OpenGraph & Twitter Cards
+###############################
+
+title: L1nkr
+description: Demo site build with L1nkr & Hugo
+images:
+  - thumbnail.jpeg
 ```
 
 Links are defined by the name (i.e. "github" or "facebook"). The names must match one of the supported links, see list below.

@@ -31,3 +31,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="{{ $iconApple.RelPermalink }}"/>
   <link rel="icon" type="image/png" sizes="32x32" href="{{ $icon.RelPermalink }}"/>
 {{ end }}
+
+{{/* OpenGraph & Twitter Cards */}}
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
