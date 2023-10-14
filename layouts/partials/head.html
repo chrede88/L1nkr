@@ -12,6 +12,9 @@
 {{/* Crator tag */}}
 {{ with .Site.Params.Author.name }}<meta name="author" content="{{ . }}">{{ end }}
 
+{{/* Site description */}}
+{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+
 {{/* CSS bundle */}}
 {{ $assets := newScratch }}
 {{ $mainCSS := resources.Get "css/compiled/main.css" }}
