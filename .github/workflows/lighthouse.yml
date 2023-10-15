@@ -4,14 +4,13 @@ on:
   deployment_status
 
 jobs:
-  if: ${{ github.event.deployment_status.state == 'success' }}
   lighthouse:
-    permissions:
-    contents: write
-    
-    name: Build and Deploy
+    if: ${{ github.event.deployment_status.state == 'success' }}
+    name: Run Lighthouse
     runs-on: ubuntu-22.04
     timeout-minutes: 5
+    permissions:
+      contents: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
