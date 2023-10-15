@@ -1,10 +1,11 @@
 name: Run Lighthouse on exampleSite
 
 on:
-  pull_request:
+  deployment_status
 
 jobs:
   lighthouse:
+    if: ${{ github.event.deployment_status.state == 'success' }}
     name: Run Lighthouse
     runs-on: ubuntu-22.04
     timeout-minutes: 5
