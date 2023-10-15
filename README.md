@@ -1,4 +1,4 @@
-# L1nkr - Simple LinkTree Hugo Theme
+# L1nkr - Simple LinkTree Hugo Theme2
 ![L1nkr - Simple LinkTree Hugo Theme](https://raw.githubusercontent.com/chrede88/l1nkr/main/images/screenshot.png)
 
 <p align="center">
