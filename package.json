@@ -6,7 +6,8 @@
   "scripts": {
     "build-tailwind": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/compiled/main.css",
     "dev-tailwind": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/compiled/main.css --watch",
-    "example-site": "hugo server --source ./exampleSite --themesDir ../.."
+    "example-site": "hugo server --source ./exampleSite --themesDir ../..",
+    "lighthouse": "export LIGHTHOUSE_BADGES_CONFIGURATION_PATH='./lighthouse-config.json' && npx lighthouse-badges --url https://Chrede88.github.io/L1nkr/ --output-path ./lighthouse --badge-style plastic --save-report"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "author": "Christian Olsen",
   "license": "MIT",
   "dependencies": {
+    "lighthouse-badges": "^1.2.16",
     "tailwindcss": "^3.3.3"
   }
 }

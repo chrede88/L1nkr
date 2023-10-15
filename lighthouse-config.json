@@ -1,0 +1,4 @@
+{
+  "extends": "lighthouse:default",
+  "formFactor": "mobile"
+}

@@ -5,6 +5,12 @@
   <img src="https://github.com/Chrede88/L1nkr/actions/workflows/testBuild.yml/badge.svg" alt="Main Branch Build">
   <img src="https://github.com/Chrede88/L1nkr/actions/workflows/exampleSite.yml/badge.svg" alt="Main Branch Build">
 </p>
+<p align="center">
+  <img src="./lighthouse/lighthouse_performance.svg" alt="Performace">
+  <img src="./lighthouse/lighthouse_accessibility.svg" alt="Accessibility">
+  <img src="./lighthouse/lighthouse_best-practices.svg" alt="Best Practices">
+  <img src="./lighthouse/lighthouse_seo.svg" alt="SEO">
+</p>
 
 L1nkr is a simple LinkTree type [Hugo](https://gohugo.io) theme. The theme is designed mobile-first, with a very intuitive interface. Get your L1nkr site up and running quickly by using the [L1nkr template](https://github.com/Chrede88/L1nkrTemplate).
 
