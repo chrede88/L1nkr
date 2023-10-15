@@ -1,0 +1,39 @@
+name: Run Lighthouse on exampleSite
+
+on:
+  deployment_status
+
+jobs:
+  if: ${{ github.event.deployment_status.state == 'success' }}
+    lighthouse:
+      permissions:
+      contents: write
+      
+      name: Build and Deploy
+      runs-on: ubuntu-22.04
+      timeout-minutes: 5
+      concurrency:
+        group: ${{ github.workflow }}-${{ github.ref }}
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+          with:
+            submodules: true
+            fetch-depth: 0
+
+        - name: Setup Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+
+        - run: npm install
+        - run: npm run lighthouse
+
+        - name: Commit Lighthouse badges
+          uses: stefanzweifel/git-auto-commit-action@v4
+          with:
+            branch: "${{ github.head_ref }}"
+            push_options: "--dry-run"
+            file_pattern: "lighthouse/*.svg"
+            commit_message: "🚦 Updating Lighthouse bagdes"
+        - run: git push
