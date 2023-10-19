@@ -94,7 +94,7 @@ images:
 Links are defined by the name (i.e. "github" or "facebook"). The names must match one of the supported link icons, see list below.
 
 ### Supported Link Icons
-| **Support Links** | **Support Links** | **Support Links** | **Support Links** |
+| **Supported Links** | **Supported Links** | **Supported Links** | **Supported Links** |
 | --- | --- | --- | --- |
 | amazon | apple | bandcamp | bitbucket | 
 | bluesky | check-mark | codepen | dev |
