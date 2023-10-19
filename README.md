@@ -64,6 +64,7 @@ author:
   name: "L1nkr"
   image: "author.jpeg"
   greeting: "A simple LinkTree theme for Hugo :evergreen_tree:"
+  icon: ":wave:"
 
 ############################
 ## Links
