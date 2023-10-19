@@ -78,7 +78,7 @@ links:
 ############################
 
 # between 2 & 6 columns are supported (both incl)
-columns: 3
+columns: 2
 
 ###############################
 ## OpenGraph & Twitter Cards
@@ -90,22 +90,36 @@ images:
   - thumbnail.jpeg
 ```
 
-Links are defined by the name (i.e. "github" or "facebook"). The names must match one of the supported links, see list below.
+Links are defined by the name (i.e. "github" or "facebook"). The names must match one of the supported link icons, see list below.
 
-### Supported Links
+### Supported Link Icons
 | **Support Links** | **Support Links** | **Support Links** | **Support Links** |
 | --- | --- | --- | --- |
-| bandcamp | bitbucket | bluesky| codepen |
-| dev | discord | dribbble | email |
-| etsy | facebook | flickr | foursquare |
-| github | gitlab | instagram | keybase |
+| amazon | apple | bandcamp | bitbucket | 
+| bluesky | check-mark | codepen | dev |
+| discord | dribbble | email | etsy |
+| facebook | flickr | foursquare | github |
+| gitlab | google | instagram | keybase |
 | kickstarter | link | linkedin | mastodon |
-| medium | orcid | patreon | pinterest |
+| medium | orcid | patreon | paypal | pinterest |
 | reddit | signal | skype | slack |
 | snapchat | soundcloud | spotify | stack-exchange |
 | stack-overflow | strava | telegram | tiktok |
 | tumblr | twitch | untappd | website |
-| whatsapp | x-twitter | youtube | |
+| whatsapp | windows | x-twitter | youtube |
+
+### Custom Link Icons
+Users can provide their own icons by placing a `.svg` image in `./assets/icons/` in their own repo. Creating folders when necessary. The image should be as square as possible for the best result.
+The background color will be the tailwind color `bg-indigo-500` (#6366f1) unless another color is specified. This can be done by placing the following css snippet in `./assets/css/custom.css`:
+
+```css
+.link-nameOfIcon {
+  background-color: #6366f1; /* Hex color code */
+}
+```
+Where `nameOfIcon` is be the name of the custom `.svg` file.
+
+---
 
 ## Update the Theme Version
 

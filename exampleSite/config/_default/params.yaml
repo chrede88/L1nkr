@@ -34,7 +34,7 @@ links:
   - slack: https://github.com/chrede88/L1nkr
   - stack-overflow: https://github.com/chrede88/L1nkr
   - twitch: https://github.com/chrede88/L1nkr
-  - patreon: https://github.com/chrede88/L1nkr
+  # - patreon: https://github.com/chrede88/L1nkr
   - soundcloud: https://github.com/chrede88/L1nkr
   - dribbble: https://github.com/chrede88/L1nkr
   # - stack-exchange: https://github.com/chrede88/
@@ -56,6 +56,11 @@ links:
   # - skype: https://github.com/chrede88/
   # - medium: https://github.com/chrede88/
   # - foursquare: https://github.com/chrede88/
+  # - apple: https://github.com/chrede88/
+  # - amazon: https://github.com/chrede88/
+  - google: https://github.com/chrede88/
+  # - paypal: https://github.com/chrede88/
+  # - windows: https://github.com/chrede88/
 
 ############################
 ## Colunms of Links

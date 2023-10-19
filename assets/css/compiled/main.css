@@ -940,6 +940,33 @@ video {
   background-color: #fA4778;
 }
 
+.link-check-mark {
+  background-color: #8b5cf6;
+}
+
+.link-apple {
+  background-color: #000;
+}
+
+.link-amazon {
+  background-color: #ff9900;
+}
+
+.link-google {
+  background-color: #4285f4;
+  background: linear-gradient(90deg, #4285f4 0% 25%, #db4437 25% 50%, #f4b400 50% 75%, #0f9d58 75% 100%);
+}
+
+.link-paypal {
+  background-color: #00457c;
+  background: linear-gradient(90deg, #00457c, #0079c1);
+}
+
+.link-windows {
+  background-color: #f25022;
+  background: conic-gradient(#7fba00 0% 25%, #ffb900 25% 50%, #00a4ef 50% 75%, #f25022 75% 100%);
+}
+
 @media (hover: hover) and (pointer: fine) {
   .hover\:text-indigo-500:hover {
     --tw-text-opacity: 1;
