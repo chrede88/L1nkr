@@ -13,6 +13,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  pull-requests: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
@@ -89,11 +90,17 @@ jobs:
       - run: npm install
       - run: npm run lighthouse
 
-      - name: Commit Lighthouse badges
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
         with:
-          branch: "${{ github.head_ref }}"
-          push_options: "--dry-run"
-          file_pattern: "lighthouse/*.svg"
-          commit_message: "🚦 Updating Lighthouse bagdes"
-      - run: git push
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "🚦 Updating Lighthouse bagdes"
+          branch: lighthouse
+          delete-branch: true
+          title: 'Updating Lighthouse bagdes'
+          body: |
+            New Lighthouse tests results on latest deployed exampleSite.
+          labels: lighthouse
+          assignees: Chrede88
+          reviewers: Chrede88
+          draft: false
