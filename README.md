@@ -1,5 +1,7 @@
 # L1nkr - Simple LinkTree Hugo Theme
-![L1nkr - Simple LinkTree Hugo Theme](https://raw.githubusercontent.com/chrede88/l1nkr/main/images/screenshot.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/chrede88/l1nkr/main/images/screenshot.png" alt="L1nkr - Simple LinkTree Hugo Theme">
+</p>
 
 <p align="center">
   <img src="https://github.com/Chrede88/L1nkr/actions/workflows/testBuild.yml/badge.svg" alt="Main Branch Build">
@@ -64,7 +66,7 @@ author:
   name: "L1nkr"
   image: "author.jpeg"
   greeting: "A simple LinkTree theme for Hugo :evergreen_tree:"
-  icon: ":wave:"
+  icon: ":wave:" # outcomment (or remove) if you don't want to display the emoji
 
 ############################
 ## Links
@@ -109,8 +111,9 @@ Links are defined by the name (i.e. "github" or "facebook"). The names must matc
 | tumblr | twitch | untappd | website |
 | whatsapp | windows | x-twitter | youtube |
 
+
 ### Custom Link Icons
-Users can provide their own icons by placing a `.svg` image in `./assets/icons/` in their own repo. Creating folders when necessary. The image should be as square as possible for the best result.
+Users can provide their own icons by placing a `.svg` image in `./assets/icons/` in their own repo. Creating folders when necessary. The image should be as square as possible for the best result. Don't use spaces in the filename!
 The background color will be the tailwind color `bg-indigo-500` (#6366f1) unless another color is specified. This can be done by placing the following css snippet in `./assets/css/custom.css`:
 
 ```css
