@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="https://github.com/Chrede88/L1nkr/actions/workflows/testBuild.yml/badge.svg" alt="Main Branch Build">
-  <img src="https://github.com/Chrede88/L1nkr/actions/workflows/exampleSite.yml/badge.svg" alt="Main Branch Build">
+  <img src="https://github.com/Chrede88/L1nkr/actions/workflows/buildDeployLighthouse.yml/badge.svg" alt="Main Branch Build">
 </p>
 <p align="center">
   <img src="./lighthouse/lighthouse_performance.svg" alt="Performace">

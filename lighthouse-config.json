@@ -1,4 +1,9 @@
 {
   "extends": "lighthouse:default",
-  "formFactor": "mobile"
+  "settings": {
+    "skipAudits": [
+      "pwa"
+    ],
+    "formFactor": "mobile"
+  }
 }
