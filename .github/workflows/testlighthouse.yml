@@ -32,7 +32,6 @@ jobs:
     name: Run Lighthouse
     runs-on: ubuntu-22.04
     timeout-minutes: 5
-    needs: deploy
     steps:
       - name: Checkout
         uses: actions/checkout@v4
