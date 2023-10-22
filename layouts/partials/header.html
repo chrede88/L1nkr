@@ -21,12 +21,12 @@
     </div>
   {{ end }}
         
-  <h1 class="text-4xl font-extrabold text-slate-500 dark:text-slate-200">
-    {{ .Site.Title | emojify }}
+  <h1 class="text-4xl text-center font-extrabold text-slate-500 dark:text-slate-200">
+    {{ .Site.Title | markdownify | emojify }}
   </h1>
 
   {{ with .Site.Params.Author.greeting }}
-    <h2 class="text-xl text-slate-700 dark:text-slate-400 mt-4">
+    <h2 class="text-xl text-center text-slate-700 dark:text-slate-400 mt-4">
       {{ . | markdownify | emojify }}
     </h2>
   {{ end }}
