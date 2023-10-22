@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [1.3.1] - 2023-10-22
+
+### Fixed
+- Fixed a text wraping issue for greeting message.
+
 ## [1.3.0] - 2023-10-20
 
 ### Added
@@ -37,7 +42,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Emoji support for a fun design
 - More than 30 supported brand links
 
-[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.3.0...HEAD
+[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.3.1...HEAD
+[1.3.1]: https://github.com/Chrede88/L1nkr/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/Chrede88/L1nkr/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/Chrede88/L1nkr/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/Chrede88/L1nkr/compare/v1.0.0...v1.1.0
