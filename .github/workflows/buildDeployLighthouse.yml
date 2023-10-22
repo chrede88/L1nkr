@@ -97,6 +97,7 @@ jobs:
           commit-message: "🚦 Updating Lighthouse bagdes"
           branch: lighthouse
           delete-branch: true
+          base: main
           title: 'Updating Lighthouse bagdes'
           body: |
             New Lighthouse tests results on latest deployed exampleSite.
