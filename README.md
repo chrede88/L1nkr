@@ -16,6 +16,8 @@
 
 L1nkr is a simple LinkTree type [Hugo](https://gohugo.io) theme. The theme is designed mobile-first, with a very intuitive interface. Get your L1nkr site up and running quickly by using the [L1nkr template](https://github.com/Chrede88/L1nkrTemplate).
 
+Hello world
+
 ## Features
 
 - Simple LinkTree theme, designed for mobile-first.
