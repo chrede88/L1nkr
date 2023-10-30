@@ -602,6 +602,10 @@ video {
   width: 12rem;
 }
 
+.resize {
+  resize: both;
+}
+
 .grid-cols-center2 {
   grid-template-columns: 112px 112px;
 }
