@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [1.3.2] - 2023-10-30
+
+### Changed
+- Convert author image to `.webp`.
+
+### Hugo
+- Support for Hugo v0.120.0
+
+### Dependencies
+- Bump tailwindcss to v3.3.5
+- Bump setup-node to v4
+
 ## [1.3.1] - 2023-10-22
 
 ### Fixed
@@ -42,7 +54,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Emoji support for a fun design
 - More than 30 supported brand links
 
-[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.3.1...HEAD
+[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.3.2...HEAD
+[1.3.2]: https://github.com/Chrede88/L1nkr/compare/v1.3.1...v1.3.2
 [1.3.1]: https://github.com/Chrede88/L1nkr/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/Chrede88/L1nkr/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/Chrede88/L1nkr/compare/v1.1.0...v1.2.0
