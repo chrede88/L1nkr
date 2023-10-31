@@ -9,6 +9,5 @@ node_modules/
 # Apple stuff
 .DS_Store
 
-# lighthouse report & pwa badge
-lighthouse/*.html
+# lighthouse pwa badge
 lighthouse/lighthouse_pwa.svg
