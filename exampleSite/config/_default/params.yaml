@@ -62,6 +62,13 @@ links:
   # - paypal: https://github.com/chrede88/
   # - windows: https://github.com/chrede88/
 
+###########################
+## Tooltip 
+###########################
+
+# add tooltips to the links
+tooltip: true
+
 ############################
 ## Colunms of Links
 ############################

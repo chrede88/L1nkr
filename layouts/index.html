@@ -1,5 +1,6 @@
 {{- define "main" -}}
     {{ $numCols := math.Floor .Site.Params.columns | default 2 }}
+    {{ $tooltip := .Site.Params.tooltip | default false }}
     {{ if ge $numCols 7 }}
       {{ $numCols = 6 }}
     {{ end }}
@@ -10,17 +11,22 @@
           {{ $icon := $type }}
           {{ $iconPath := resources.Get (print "icons/" $icon ".svg") }}
           {{ with $iconPath }}
-          <a
-            class="link link-{{$icon}}"
-            href="{{ $href }}"
-            target="_blank"
-            rel="me noopener noreferrer"
-            aria-label="{{ $icon }}"
-          >
-          <span class="link_svg">
-            {{ $iconPath.Content | safeHTML }}
-          </span>
-          </a>
+            <a
+              class="group link link-{{$icon}}"
+              href="{{ $href }}"
+              target="_blank"
+              rel="me noopener noreferrer"
+              aria-label="{{ $icon }}"
+            >
+            <span class="link_svg">
+              {{ $iconPath.Content | safeHTML }}
+            </span>
+            {{ if $tooltip }}
+              <span class="tooltip">
+                {{ strings.FirstUpper $icon }}
+              </span>
+            {{ end }}
+            </a>
           {{ end }}
         {{ end }}
       {{ end }}

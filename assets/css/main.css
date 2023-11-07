@@ -34,6 +34,18 @@
   @apply h-20 w-20 rounded-full m-1 fill-slate-50
 }
 
+.tooltip {
+  @apply absolute -top-10 text-center rounded-md px-2 py-1
+  whitespace-nowrap shadow-md shadow-gray-950/25
+  dark:shadow-slate-100/25 bg-gray-950 text-slate-50 
+  dark:bg-slate-100 dark:text-slate-700 animate-bounce
+  group-hover:opacity-100 opacity-0 transition-opacity ease-out duration-300
+  after:absolute after:w-0 after:h-0 after:border-4 after:top-7
+  after:left-1/2 after:-translate-x-1/2 after:rotate-45
+  after:shadow-md after:shadow-gray-950/25 after:border-gray-950
+  after:dark:shadow-slate-100/25 after:dark:border-slate-100;
+}
+
 .link-facebook {
   background-color: #1877f2;
 }
