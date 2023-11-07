@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [1.5.0] - 2023-11-07
+
+### Added
+- New feature: Tooltips for icons.
+
 ## [1.4.0] - 2023-11-06
 
 ### Added
@@ -69,7 +74,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Emoji support for a fun design
 - More than 30 supported brand links
 
-[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.4.0...HEAD
+[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.5.0...HEAD
+[1.5.0]: https://github.com/Chrede88/L1nkr/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/Chrede88/L1nkr/compare/v1.3.4...v1.4.0
 [1.3.4]: https://github.com/Chrede88/L1nkr/compare/v1.3.3...v1.3.4
 [1.3.3]: https://github.com/Chrede88/L1nkr/compare/v1.3.2...v1.3.3
