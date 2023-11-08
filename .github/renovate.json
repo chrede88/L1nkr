@@ -16,7 +16,7 @@
       "customType": "regex",
       "fileMatch": ["^.github/(?:workflows|actions)/.+\\.ya?ml$"],
       "matchStrings": ["datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n.*?'(?<currentValue>.*)'\n"],
-      "versioningTemplate": "semver"
+      "versioningTemplate": "semver-coerced"
     }
   ],
   "packageRules": [
