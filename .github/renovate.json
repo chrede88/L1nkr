@@ -19,6 +19,12 @@
       "depNameTemplate": "go",
       "datasourceTemplate": "golang-version",
       "versioningTemplate": "go-mod-directive"
+    },
+    {
+      "description": "Update Hugo version in Github actions",
+      "customType": "regex",
+      "fileMatch": ["^.github/(?:workflows|actions)/.+\\.ya?ml$"],
+      "matchStrings": ["datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\shugo-version: '(?<currentValue>.*)'\\s"]
     }
   ],
   "packageRules": [
