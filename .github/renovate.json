@@ -24,7 +24,7 @@
       "description": "Update Hugo version in Github actions",
       "customType": "regex",
       "fileMatch": ["^.github/(?:workflows|actions)/.+\\.ya?ml$"],
-      "matchStrings": ["datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\shugo-version: '(?<currentValue>.*)'\\s"]
+      "matchStrings": ["datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n.*?'(?<currentValue>.*)'\n"]
     }
   ],
   "packageRules": [
