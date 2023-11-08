@@ -11,7 +11,7 @@
     "every weekend"
   ],
   "gomod": {
-    "fileMatch": ["^(workflow-templates|\.(?:github|gitea|forgejo)/workflows)/[^/]+\.ya?ml$"]
+    "fileMatch": ["^(workflow-templates|\\.(?:github|gitea|forgejo)/workflows)/[^/]+\\.ya?ml$"]
   },
   "packageRules": [
     {
