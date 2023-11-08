@@ -10,7 +10,7 @@
     "after 6pm and before 6am every weekday",
     "every weekend"
   ],
-  "gomod": {
+  "golang": {
     "fileMatch": [".github/workflows/.*\\.ya?ml$"]
   },
   "packageRules": [
