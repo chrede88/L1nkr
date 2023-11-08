@@ -10,8 +10,8 @@
     "after 6pm and before 6am every weekday",
     "every weekend"
   ],
-  "golang": {
-    "fileMatch": [".github/workflows/.*\\.ya?ml$"]
+  "gomod": {
+    "fileMatch": ["^(workflow-templates|\.(?:github|gitea|forgejo)/workflows)/[^/]+\.ya?ml$"]
   },
   "packageRules": [
     {
