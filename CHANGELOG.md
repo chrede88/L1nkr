@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [1.5.3] - 2023-11-09
+
+### Golang
+- Support for Go v1.21.4
+
 ## [1.5.2] - 2023-11-08
 
 ### Hugo
@@ -84,7 +89,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Emoji support for a fun design
 - More than 30 supported brand links
 
-[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.5.2...HEAD
+[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.5.3...HEAD
+[1.5.3]: https://github.com/Chrede88/L1nkr/compare/v1.5.2...v1.5.3
 [1.5.2]: https://github.com/Chrede88/L1nkr/compare/v1.5.1...v1.5.2
 [1.5.1]: https://github.com/Chrede88/L1nkr/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/Chrede88/L1nkr/compare/v1.4.0...v1.5.0
