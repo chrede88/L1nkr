@@ -17,7 +17,7 @@
       "fileMatch": ["^.github/(?:workflows|actions)/.+\\.ya?ml$"],
       "matchStrings": ["datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n.*?'(?<currentValue>.*)'\n"],
       "versioningTemplate": "semver-coerced",
-      "extractVersionTemplate": "^v?(?<version>.*)$"
+      "extractVersionTemplate": "^(v|go)?(?<version>.*)$"
     }
   ],
   "packageRules": [
