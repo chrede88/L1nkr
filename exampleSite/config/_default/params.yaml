@@ -27,10 +27,10 @@ links:
   - codepen: https://github.com/chrede88/L1nkr
   - dev: https://github.com/chrede88/L1nkr
   - email: https://github.com/chrede88/L1nkr
-  # - website: https://github.com/chrede88/L1nkr
+  - website: https://github.com/chrede88/L1nkr
   # - link: https://github.com/chrede88/L1nkr
   - discord: https://github.com/chrede88/L1nkr
-  - orcid: https://github.com/chrede88/L1nkr
+  # - orcid: https://github.com/chrede88/L1nkr
   - slack: https://github.com/chrede88/L1nkr
   - stack-overflow: https://github.com/chrede88/L1nkr
   - twitch: https://github.com/chrede88/L1nkr
@@ -49,10 +49,10 @@ links:
   # - bitbucket: https://github.com/chrede88/
   # - bandcamp: https://github.com/chrede88/
   # - etsy: https://github.com/chrede88/
-  - spotify: https://github.com/chrede88/L1nkr
+  # - spotify: https://github.com/chrede88/L1nkr
   # - pinterest: https://github.com/chrede88/
   - strava: https://github.com/chrede88/L1nkr
-  # - untappd: https://github.com/chrede88/
+  - untappd: https://github.com/chrede88/
   # - skype: https://github.com/chrede88/
   # - medium: https://github.com/chrede88/
   # - foursquare: https://github.com/chrede88/
@@ -61,6 +61,13 @@ links:
   - google: https://github.com/chrede88/L1nkr
   # - paypal: https://github.com/chrede88/
   # - windows: https://github.com/chrede88/
+
+###########################
+## Icon text
+###########################
+
+# add the icon name to each icon
+icontext: true
 
 ###########################
 ## Tooltip 

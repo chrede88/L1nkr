@@ -23,6 +23,10 @@ L1nkr is a simple LinkTree type [Hugo](https://gohugo.io) theme. The theme is de
 - Emoji support for a fun design.
 - More than 40 supported brand links.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/chrede88/l1nkr/main/images/hovereffect.gif" alt="L1nkr - Simple LinkTree Hugo Theme">
+</p>
+
 ---
 
 ## Installation
@@ -83,11 +87,18 @@ links:
 # between 2 & 6 columns are supported (both incl)
 columns: 2
 
+###########################
+## Icon text
+###########################
+
+# add the icon name to each icon
+icontext: true
+
 ############################
 ## Tooltips
 ############################
 
-# add tooltips to all icons
+# add tooltips (on hover) to all icons
 tooltip: true
 
 ###############################

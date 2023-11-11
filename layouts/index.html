@@ -1,34 +1,49 @@
 {{- define "main" -}}
-    {{ $numCols := math.Floor .Site.Params.columns | default 2 }}
-    {{ $tooltip := .Site.Params.tooltip | default false }}
-    {{ if ge $numCols 7 }}
-      {{ $numCols = 6 }}
-    {{ end }}
-    <div class="grid grid-cols-center2 grid-cols-md-center{{ $numCols }} justify-center gap-4 mb-auto mt-8">
-      {{ range $links := .Site.Params.Links }}
-        {{ range $type, $data := $links }}
-          {{ $href := $data }}
-          {{ $icon := $type }}
-          {{ $iconPath := resources.Get (print "icons/" $icon ".svg") }}
-          {{ with $iconPath }}
-            <a
-              class="group link link-{{$icon}}"
-              href="{{ $href }}"
-              target="_blank"
-              rel="me noopener noreferrer"
-              aria-label="{{ $icon }}"
-            >
-            <span class="link_svg">
-              {{ $iconPath.Content | safeHTML }}
+  {{ $numCols := math.Floor .Site.Params.columns | default 2 }}
+  {{ $icontext := .Site.Params.icontext | default false }}
+  {{ $tooltip := .Site.Params.tooltip | default false }}
+  {{ if ge $numCols 7 }}
+    {{ $numCols = 6 }}
+  {{ end }}
+  <div class="grid grid-cols-center2 grid-cols-md-center{{ $numCols }} justify-center gap-4 mb-auto mt-8">
+    {{ range $links := .Site.Params.Links }}
+      {{ range $type, $data := $links }}
+        {{ $href := $data }}
+        {{ $icon := $type }}
+        {{ $iconPath := resources.Get (print "icons/" $icon ".svg") }}
+        {{ with $iconPath }}
+          <a
+            class="group link link-{{$icon}}"
+            href="{{ $href }}"
+            target="_blank"
+            rel="me noopener noreferrer"
+            aria-label="{{ $icon }}"
+          >
+          <span class="link_svg">
+            {{ $iconPath.Content | safeHTML }}
+          </span>
+          {{ if $icontext }}
+            <span class="text_svg">
+              <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <path id="arc" d="M 200, 200 m -140, 0 a 140,140 0 1,1 280,0"/>
+                </defs>
+                <text font-size="40">
+                  <textPath href="#arc" text-anchor="middle" startOffset="221">
+                    {{ strings.FirstUpper $icon }}
+                  </textPath>
+                </text>
+              </svg>
             </span>
-            {{ if $tooltip }}
-              <span class="tooltip">
-                {{ strings.FirstUpper $icon }}
-              </span>
-            {{ end }}
-            </a>
           {{ end }}
+          {{ if $tooltip }}
+            <span class="tooltip">
+              {{ strings.FirstUpper $icon }}
+            </span>
+          {{ end }}
+          </a>
         {{ end }}
       {{ end }}
-    </div>
+    {{ end }}
+  </div>
 {{- end -}}

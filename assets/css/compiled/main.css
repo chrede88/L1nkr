@@ -753,6 +753,15 @@ video {
   fill: #f8fafc;
 }
 
+.text_svg {
+  position: absolute;
+  margin: 0.25rem;
+  height: 120px;
+  width: 120px;
+  border-radius: 9999px;
+  fill: #f8fafc;
+}
+
 .tooltip {
   visibility: hidden;
   position: absolute;
@@ -850,7 +859,6 @@ video {
 }
 
 .link-gitlab {
-  padding-top: 0.25rem;
   background-color: #554488;
 }
 
@@ -870,7 +878,6 @@ video {
 }
 
 .link-mastodon {
-  padding-bottom: 0.25rem;
   background-color: #6364ff;
 }
 
@@ -887,7 +894,6 @@ video {
 }
 
 .link-soundcloud {
-  padding-top: 0.5rem;
   background-color: #ff8800;
   background: linear-gradient(120deg, #ff8800, #ff3300);
 }
@@ -906,7 +912,6 @@ video {
 }
 
 .link-youtube {
-  padding-top: 0.75rem;
   background-color: #ff0000;
 }
 
@@ -919,7 +924,6 @@ video {
 }
 
 .link-discord {
-  padding-top: 0.75rem;
   background-color: #7289da;
 }
 
@@ -969,7 +973,6 @@ video {
 }
 
 .link-keybase {
-  padding-bottom: 0.75rem;
   background-color: #33a0ff;
 }
 

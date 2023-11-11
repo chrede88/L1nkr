@@ -34,6 +34,10 @@
   @apply h-20 w-20 rounded-full m-1 fill-slate-50
 }
 
+.text_svg {
+  @apply absolute h-[120px] w-[120px] rounded-full m-1 fill-slate-50
+}
+
 .tooltip {
   @apply invisible group-hover:visible absolute -top-10
   text-center rounded-md px-2 py-1 whitespace-nowrap
@@ -57,7 +61,6 @@
   background-color: #000;
 }
 .link-gitlab {
-  @apply pt-1;
   background-color: #554488;
 }
 .link-instagram {
@@ -74,7 +77,6 @@
   background-color: #0077b5;
 }
 .link-mastodon {
-  @apply pb-1;
   background-color: #6364ff;
 }
 .link-reddit {
@@ -87,7 +89,6 @@
   background-color: #fffc00;
 }
 .link-soundcloud {
-  @apply pt-2;
   background-color: #ff8800;
   background: linear-gradient(120deg, #ff8800, #ff3300);
 }
@@ -102,17 +103,15 @@
   background: linear-gradient(120deg, #12990b, #45d82c);
 }
 .link-youtube {
-  @apply pt-3;
   background-color: #ff0000;
 }
 .link-stack-exchange {
   background-color: #0095ff;
 }
 .link-stack-overflow {
-  background-color: #f48024;
+  background-color: #f48024;  
 }
 .link-discord {
-  @apply pt-3;
   background-color: #7289da;
 }
 .link-codepen {
@@ -150,7 +149,6 @@
   background-color: #06ce78;
 }
 .link-keybase {
-  @apply pb-3;
   background-color: #33a0ff;
 }
 .link-flickr {
