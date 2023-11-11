@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [1.6.0] - 2023-11-11
+
+### Added
+- Support for icon name in link. Set `icontext: true` in `params.yaml`.
+
+### Changed
+- Updated icons to follow the general style convention. All supported icons now conform to the same style template.
+- Updated promotional images for the theme.
+
 ## [1.5.3] - 2023-11-09
 
 ### Golang
@@ -89,7 +98,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Emoji support for a fun design
 - More than 30 supported brand links
 
-[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.5.3...HEAD
+[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.6.0...HEAD
+[1.6.0]: https://github.com/Chrede88/L1nkr/compare/v1.5.3...v1.6.0
 [1.5.3]: https://github.com/Chrede88/L1nkr/compare/v1.5.2...v1.5.3
 [1.5.2]: https://github.com/Chrede88/L1nkr/compare/v1.5.1...v1.5.2
 [1.5.1]: https://github.com/Chrede88/L1nkr/compare/v1.5.0...v1.5.1
