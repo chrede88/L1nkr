@@ -22,6 +22,7 @@ L1nkr is a simple LinkTree type [Hugo](https://gohugo.io) theme. The theme is de
 - Automatic dark mode (based on system setttings).
 - Emoji support for a fun design.
 - More than 40 supported brand links.
+- Healthcheck endpoint (/healthcheck.json).
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/chrede88/l1nkr/main/images/hovereffect.gif" alt="L1nkr - Simple LinkTree Hugo Theme">
@@ -31,7 +32,7 @@ L1nkr is a simple LinkTree type [Hugo](https://gohugo.io) theme. The theme is de
 
 ## Installation
 
-1) Make sure you have Hugo and Go isntalled on your local machine. Read the instructions [here](https://gohugo.io/installation/).
+1) Make sure you have Hugo and Go installed on your local machine. Read the instructions [here](https://gohugo.io/installation/).
 2) Follow this link to the theme [template](https://github.com/Chrede88/L1nkrTemplate).
 3) Follow the installation instructions in the template repo. They are listed below for reference.
 
@@ -131,7 +132,7 @@ Links are defined by the name (i.e. "github" or "facebook"). The names must matc
 
 
 ### Custom Link Icons
-Users can provide their own icons by placing a `.svg` image in `./assets/icons/` in their own repo. Creating folders when necessary. The image should be as square as possible for the best result. Don't use spaces in the filename!
+Users can provide their own icons by placing a `.svg` image in `./assets/icons/` in their own repo. Creating folders when necessary. The image should be as square as possible for the best result. Don't use spaces in the filename! Find all current icons [here](https://github.com/chrede88/L1nkr/tree/main/assets/icons).
 The background color will be the tailwind color `bg-indigo-500` (#6366f1) unless another color is specified. This can be done by placing the following css snippet in `./assets/css/custom.css`:
 
 ```css
@@ -155,10 +156,3 @@ The best practice is to update to released and tested versions. To update to a s
   hugo mod get github.com/Chrede88/L1nkr@vX.Y.Z
 ```
 Replace X,Y & Z with the corresponding version numbers. You can find the releases [here](https://github.com/Chrede88/L1nkr/releases). Please check if any breaking changes are listed under the release you want to update to, before proceeding.
-
-### Danger Zone
-If you like to live on the edge, you can get the lastest commit by using the following command:
-```shell
-  hugo mod get -u github.com/Chrede88/L1nkr
-```
-This might break your site, as these commits might not have been tested yet.
