@@ -13,6 +13,11 @@ module.exports = {
             'center4': '112px 112px 112px 112px',
             'center5': '112px 112px 112px 112px 112px',
             'center6': '112px 112px 112px 112px 112px 112px',
+            'center2-mono': '88px 88px',
+            'center3-mono': '88px 88px 88px',
+            'center4-mono': '88px 88px 88px 88px',
+            'center5-mono': '88px 88px 88px 88px 88px',
+            'center6-mono': '88px 88px 88px 88px 88px 88px',
           }
         }
       },

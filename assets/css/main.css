@@ -24,30 +24,63 @@
   @apply md:grid-cols-center6;
 }
 
+.grid-cols-md-center2-mono {
+  @apply md:grid-cols-center2-mono;
+}
+
+.grid-cols-md-center3-mono {
+  @apply md:grid-cols-center3-mono;
+}
+
+.grid-cols-md-center4-mono {
+  @apply md:grid-cols-center4-mono;
+}
+
+.grid-cols-md-center5-mono {
+  @apply md:grid-cols-center5-mono;
+}
+
+.grid-cols-md-center6-mono {
+  @apply md:grid-cols-center6-mono;
+}
+
 .link {
   @apply flex items-center justify-center w-28 h-28 
   rounded-full border-2 border-slate-50 bg-indigo-500
   transform hover:scale-125 transition ease-out duration-300;
 }
 
+.link-mono {
+  @apply flex items-center justify-center w-[22] h-[22]
+  rounded-full transform hover:scale-125 transition ease-out duration-300;
+}
+
 .link_svg {
-  @apply h-20 w-20 rounded-full m-1 fill-slate-50
+  @apply h-20 w-20 rounded-full m-1 fill-slate-50;
+}
+
+.link_svg-mono {
+  @apply h-20 w-20 rounded-full m-1 dark:fill-slate-50 fill-slate-700;
 }
 
 .text_svg {
-  @apply absolute h-[120px] w-[120px] rounded-full m-1 fill-slate-50
+  @apply absolute h-[120px] w-[120px] rounded-full m-1 fill-slate-50;
+}
+
+.text_svg-mono {
+  @apply absolute h-[120px] w-[120px] rounded-full m-1 dark:fill-slate-50 fill-slate-700;
 }
 
 .tooltip {
   @apply invisible group-hover:visible absolute -top-10
   text-center rounded-md px-2 py-1 whitespace-nowrap
   shadow-md shadow-gray-950/25 dark:shadow-slate-100/25
-  bg-gray-950 text-slate-50 dark:bg-slate-100
+  bg-gray-950 text-slate-50 dark:bg-slate-200
   dark:text-slate-700 animate-bounce
   after:absolute after:w-0 after:h-0 after:border-4 after:top-7
   after:left-1/2 after:-translate-x-1/2 after:rotate-45
   after:shadow-md after:shadow-gray-950/25 after:border-gray-950
-  after:dark:shadow-slate-100/25 after:dark:border-slate-100;
+  after:dark:shadow-slate-100/25 after:dark:border-slate-200;
 }
 
 .link-facebook {

@@ -91,3 +91,5 @@ title: "L1nkr"
 description: "Demo site build with L1nkr & Hugo"
 images:
   - thumbnail.jpeg
+
+colorfull: false

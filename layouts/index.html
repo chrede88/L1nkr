@@ -2,10 +2,33 @@
   {{ $numCols := math.Floor .Site.Params.columns | default 2 }}
   {{ $icontext := .Site.Params.icontext | default false }}
   {{ $tooltip := .Site.Params.tooltip | default false }}
+  {{ $colorfull := .Site.Params.colorfull | default true }}
+
   {{ if ge $numCols 7 }}
     {{ $numCols = 6 }}
   {{ end }}
-  <div class="grid grid-cols-center2 grid-cols-md-center{{ $numCols }} justify-center gap-4 mb-auto mt-8">
+  {{ $numCols = printf "%.0f" $numCols }}
+  
+  {{ $mainclass := "" }}
+  {{ $svgclass := "" }}
+  {{ $textclass := "" }}
+  {{ $gridclass := "" }}
+  {{ $mdgridclass := "grid-cols-md-center" }}
+  {{ if $colorfull }}
+    {{ $mainclass = "link" }}
+    {{ $svgclass = "link_svg" }}
+    {{ $textclass = "text_svg" }}
+    {{ $gridclass = "grid-cols-center2" }}
+    {{ $mdgridclass = print $mdgridclass $numCols }}
+  {{ else }}
+    {{ $mainclass = "link-mono" }}
+    {{ $svgclass = "link_svg-mono" }}
+    {{ $textclass = "text_svg-mono" }}
+    {{ $gridclass = "grid-cols-center2-mono" }}
+    {{ $mdgridclass = print $mdgridclass $numCols "-mono" }}
+  {{ end }}
+
+  <div class="grid {{ $gridclass }} {{ $mdgridclass }} justify-center gap-4 mb-auto mt-8">
     {{ range $links := .Site.Params.Links }}
       {{ range $type, $data := $links }}
         {{ $href := $data }}
@@ -13,17 +36,17 @@
         {{ $iconPath := resources.Get (print "icons/" $icon ".svg") }}
         {{ with $iconPath }}
           <a
-            class="group link link-{{$icon}}"
+            class="group {{ $mainclass }} {{ if $colorfull }} link-{{$icon}} {{ end }}"
             href="{{ $href }}"
             target="_blank"
             rel="me noopener noreferrer"
             aria-label="{{ $icon }}"
           >
-          <span class="link_svg">
+          <span class="{{ $svgclass }}">
             {{ $iconPath.Content | safeHTML }}
           </span>
           {{ if $icontext }}
-            <span class="text_svg">
+            <span class="{{ $textclass }}">
               <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <path id="arc" d="M 200, 200 m -140, 0 a 140,140 0 1,1 280,0"/>
