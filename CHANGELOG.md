@@ -6,8 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [1.8.0] - 2023-11-25
+
+### Added
+- New monochromatic color scheme option. Set `monochrome: true` in `params.yaml`.
+
+### Breaking Change
+
+- Please note the breaking change in `v1.7.0` if you're updating from an older version!
+
 ## [1.7.0] - 2023-11-20
-- Breaking change: Module name changed!
+### Breaking Change
+- Module name changed!
   Name changed from `github.com/Chrede88/L1nkr` to `github.com/chrede88/L1nkr`. Update the module name in your site config: `./config/_default/hugo.yaml` and in `go.mod`.
 
 ## [1.6.0] - 2023-11-11
@@ -102,7 +112,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Emoji support for a fun design
 - More than 30 supported brand links
 
-[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.7.0...HEAD
+[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.8.0...HEAD
+[1.8.0]: https://github.com/Chrede88/L1nkr/compare/v1.7.0...v1.8.0
 [1.7.0]: https://github.com/Chrede88/L1nkr/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/Chrede88/L1nkr/compare/v1.5.3...v1.6.0
 [1.5.3]: https://github.com/Chrede88/L1nkr/compare/v1.5.2...v1.5.3
