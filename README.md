@@ -20,6 +20,7 @@ L1nkr is a simple LinkTree type [Hugo](https://gohugo.io) theme. The theme is de
 
 - Simple LinkTree theme, designed for mobile-first.
 - Automatic dark mode (based on system setttings).
+- Colorful or monochromatic link color scheme.
 - Emoji support for a fun design.
 - More than 40 supported brand links.
 - Healthcheck endpoint (/healthcheck.json).
@@ -88,6 +89,14 @@ links:
 # between 2 & 6 columns are supported (both incl)
 columns: 2
 
+##############################
+## Monochromatic color scheme
+##############################
+
+# all links will be slate-700 (or slate-50 in dark mode)
+# https://tailwindcss.com/docs/customizing-colors
+monochrome: true
+
 ###########################
 ## Icon text
 ###########################
@@ -132,8 +141,8 @@ Links are defined by the name (i.e. "github" or "facebook"). The names must matc
 
 
 ### Custom Link Icons
-Users can provide their own icons by placing a `.svg` image in `./assets/icons/` in their own repo. Creating folders when necessary. The image should be as square as possible for the best result. Don't use spaces in the filename! Find all current icons [here](https://github.com/chrede88/L1nkr/tree/main/assets/icons).
-The background color will be the tailwind color `bg-indigo-500` (#6366f1) unless another color is specified. This can be done by placing the following css snippet in `./assets/css/custom.css`:
+Users can provide their own icons by placing a `.svg` image in `./assets/icons/` in their own repo. Creating folders when necessary. The image should be as circular as possible for the best result. Don't use spaces in the filename! Find all current icons [here](https://github.com/chrede88/L1nkr/tree/main/assets/icons).
+If you're using the colorful color scheme, the background color will be the tailwind color `bg-indigo-500` (#6366f1) unless another color is specified. This can be done by placing the following css snippet in `./assets/css/custom.css`:
 
 ```css
 .link-nameOfIcon {

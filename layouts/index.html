@@ -2,30 +2,29 @@
   {{ $numCols := math.Floor .Site.Params.columns | default 2 }}
   {{ $icontext := .Site.Params.icontext | default false }}
   {{ $tooltip := .Site.Params.tooltip | default false }}
-  {{ $colorfull := .Site.Params.colorfull | default true }}
+  {{ $monochrome := .Site.Params.monochrome | default false }}
 
   {{ if ge $numCols 7 }}
     {{ $numCols = 6 }}
   {{ end }}
-  {{ $numCols = printf "%.0f" $numCols }}
   
+  {{/* Select CSS classes based on monochrome setting */}}
   {{ $mainclass := "" }}
   {{ $svgclass := "" }}
   {{ $textclass := "" }}
   {{ $gridclass := "" }}
-  {{ $mdgridclass := "grid-cols-md-center" }}
-  {{ if $colorfull }}
-    {{ $mainclass = "link" }}
-    {{ $svgclass = "link_svg" }}
-    {{ $textclass = "text_svg" }}
-    {{ $gridclass = "grid-cols-center2" }}
-    {{ $mdgridclass = print $mdgridclass $numCols }}
-  {{ else }}
+  {{ $mdgridclass := printf "grid-cols-md-center%.0f" $numCols }}
+  {{ if $monochrome }}
     {{ $mainclass = "link-mono" }}
     {{ $svgclass = "link_svg-mono" }}
     {{ $textclass = "text_svg-mono" }}
     {{ $gridclass = "grid-cols-center2-mono" }}
-    {{ $mdgridclass = print $mdgridclass $numCols "-mono" }}
+    {{ $mdgridclass = print $mdgridclass "-mono" }}
+  {{ else }}
+    {{ $mainclass = "link" }}
+    {{ $svgclass = "link_svg" }}
+    {{ $textclass = "text_svg" }}
+    {{ $gridclass = "grid-cols-center2" }}
   {{ end }}
 
   <div class="grid {{ $gridclass }} {{ $mdgridclass }} justify-center gap-4 mb-auto mt-8">
@@ -36,7 +35,7 @@
         {{ $iconPath := resources.Get (print "icons/" $icon ".svg") }}
         {{ with $iconPath }}
           <a
-            class="group {{ $mainclass }} {{ if $colorfull }} link-{{$icon}} {{ end }}"
+            class="group {{ $mainclass }} {{ if not $monochrome }} link-{{$icon}} {{ end }}"
             href="{{ $href }}"
             target="_blank"
             rel="me noopener noreferrer"

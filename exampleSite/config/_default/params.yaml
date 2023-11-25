@@ -62,6 +62,14 @@ links:
   # - paypal: https://github.com/chrede88/
   # - windows: https://github.com/chrede88/
 
+##############################
+## Monochromatic color scheme
+##############################
+
+# all links will be slate-700 (or slate-50 in dark mode)
+# https://tailwindcss.com/docs/customizing-colors
+monochrome: true
+
 ###########################
 ## Icon text
 ###########################
@@ -74,7 +82,7 @@ icontext: true
 ###########################
 
 # add tooltips to the links
-tooltip: true
+tooltip: false
 
 ############################
 ## Colunms of Links
@@ -91,5 +99,3 @@ title: "L1nkr"
 description: "Demo site build with L1nkr & Hugo"
 images:
   - thumbnail.jpeg
-
-colorfull: false
