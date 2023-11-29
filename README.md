@@ -153,6 +153,13 @@ If you're using the colorful color scheme, the background color will be the tail
 ```
 Where `nameOfIcon` is be the name of the custom `.svg` file.
 
+#### SVG Icon Cheatsheet
+Make sure that your custom svg icons doesn't have a fixed size. I.e. set the `width` and `height` to:
+```svg
+<svg width="100%" height="100%">
+```
+And make sure the icon doesn't have any style elements that defines the color!
+
 ---
 
 ## Update the Theme Version
