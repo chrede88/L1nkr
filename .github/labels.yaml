@@ -31,5 +31,5 @@
   color: "d73a4a"
   description: "Something isn't working"
 - name: keep
-color: "01717f"
-description: "Keep issue open"
+  color: "01717f"
+  description: "Keep issue open"
