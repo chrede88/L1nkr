@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [1.8.2] - 2023-12-18
+
+### Added
+- Added 404
+
 ## [1.8.1] - 2023-12-05
 
 ### Hugo

@@ -1,4 +1,4 @@
-/*! L1nkr v1.8.1| MIT License | https://github.com/Chrede88/L1nkr */
+/*! L1nkr v1.8.2| MIT License | https://github.com/Chrede88/L1nkr */
 
 /*! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com */
 
@@ -574,10 +574,6 @@ video {
   margin-top: 2rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .block {
   display: block;
 }
@@ -692,14 +688,14 @@ video {
   text-align: center;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
 }
 
 .text-sm {
@@ -712,18 +708,13 @@ video {
   line-height: 1.75rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .font-extrabold {
   font-weight: 800;
+}
+
+.text-slate-200 {
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
 }
 
 .text-slate-500 {
@@ -734,11 +725,6 @@ video {
 .text-slate-700 {
   --tw-text-opacity: 1;
   color: rgb(51 65 85 / var(--tw-text-opacity));
-}
-
-.text-slate-200 {
-  --tw-text-opacity: 1;
-  color: rgb(226 232 240 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
@@ -1225,10 +1211,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:mt-48 {
-    margin-top: 12rem;
-  }
-
   .md\:text-8xl {
     font-size: 6rem;
     line-height: 1;
