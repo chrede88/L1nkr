@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [1.8.3] - 2023-12-23
+
+### Changed
+- updating Bluesky icon
+
 ## [1.8.2] - 2023-12-18
 
 ### Added
@@ -122,7 +127,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Emoji support for a fun design
 - More than 30 supported brand links
 
-[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.8.2...HEAD
+[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.8.3...HEAD
+[1.8.3]: https://github.com/Chrede88/L1nkr/compare/v1.8.2...v1.8.3
 [1.8.2]: https://github.com/Chrede88/L1nkr/compare/v1.8.1...v1.8.2
 [1.8.1]: https://github.com/Chrede88/L1nkr/compare/v1.8.0...v1.8.1
 [1.8.0]: https://github.com/Chrede88/L1nkr/compare/v1.7.0...v1.8.0
