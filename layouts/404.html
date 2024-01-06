@@ -1,8 +1,6 @@
 {{ define "main" }}
-  <div class="flex flex-col justify-center items-center mt-24 mb-2">
-    <h1 class="text-3xl md:text-8xl font-extrabold text-slate-700 dark:text-slate-200">Page not found!</h1>
-    <a href="{{ .Site.BaseURL }}" class="px-3 py-1 mt-4 bg-slate-700 dark:bg-slate-200 rounded-full text-slate-200 hover:text-indigo-500 dark:text-slate-700">
-      Home
-    </a>
+  <div class="mb-2 mt-24 flex flex-col items-center justify-center">
+    <h1 class="text-3xl font-extrabold text-slate-700 md:text-8xl dark:text-slate-200">Page not found!</h1>
+    <a href="{{ .Site.BaseURL }}" class="mt-4 rounded-full bg-slate-700 px-3 py-1 text-slate-200 hover:text-indigo-500 dark:bg-slate-200 dark:text-slate-700"> Home </a>
   </div>
 {{ end }}
