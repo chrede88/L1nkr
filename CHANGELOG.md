@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [1.8.4] - 2024-01-06
+
+### Hugo
+- Added support for Hugo v0.121.2
+
 ## [1.8.3] - 2023-12-23
 
 ### Changed
@@ -127,7 +132,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Emoji support for a fun design
 - More than 30 supported brand links
 
-[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.8.3...HEAD
+[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.8.4...HEAD
+[1.8.4]: https://github.com/Chrede88/L1nkr/compare/v1.8.3...v1.8.4
 [1.8.3]: https://github.com/Chrede88/L1nkr/compare/v1.8.2...v1.8.3
 [1.8.2]: https://github.com/Chrede88/L1nkr/compare/v1.8.1...v1.8.2
 [1.8.1]: https://github.com/Chrede88/L1nkr/compare/v1.8.0...v1.8.1
