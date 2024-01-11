@@ -1,3 +1,3 @@
 module github.com/chrede88/L1nkr
 
-go 1.21.5
+go 1.21.6
