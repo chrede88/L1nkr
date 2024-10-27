@@ -1,4 +1,4 @@
-/*! L1nkr v1.8.6 | MIT License | https://github.com/Chrede88/L1nkr */
+/*! L1nkr v1.9.0 | MIT License | https://github.com/Chrede88/L1nkr */
 
 @tailwind base;
 @tailwind components;
@@ -45,42 +45,42 @@
 }
 
 .link {
-  @apply flex items-center justify-center w-28 h-28 
-  rounded-full border-2 border-slate-50 bg-indigo-500
-  transform hover:scale-125 transition ease-out duration-300;
+  @apply flex h-28 w-28 transform items-center
+  justify-center rounded-full border-2 border-slate-50
+  bg-indigo-500 transition duration-300 ease-out hover:scale-125;
 }
 
 .link-mono {
-  @apply flex items-center justify-center w-[22] h-[22]
-  rounded-full transform hover:scale-125 transition ease-out duration-300;
+  @apply flex h-[22] w-[22] transform items-center
+  justify-center rounded-full transition duration-300 ease-out hover:scale-125;
 }
 
 .link_svg {
-  @apply h-20 w-20 rounded-full m-1 fill-slate-50;
+  @apply m-1 h-20 w-20 rounded-full fill-slate-50;
 }
 
 .link_svg-mono {
-  @apply h-20 w-20 rounded-full m-1 dark:fill-slate-50 fill-slate-700;
+  @apply m-1 h-20 w-20 rounded-full fill-slate-700 dark:fill-slate-50;
 }
 
 .text_svg {
-  @apply absolute h-[120px] w-[120px] rounded-full m-1 fill-slate-50;
+  @apply absolute m-1 h-[120px] w-[120px] rounded-full fill-slate-50;
 }
 
 .text_svg-mono {
-  @apply absolute h-[120px] w-[120px] rounded-full m-1 dark:fill-slate-50 fill-slate-700;
+  @apply absolute m-1 h-[120px] w-[120px] rounded-full fill-slate-700 dark:fill-slate-50;
 }
 
 .tooltip {
-  @apply invisible group-hover:visible absolute -top-10
-  text-center rounded-md px-2 py-1 whitespace-nowrap
-  shadow-md shadow-gray-950/25 dark:shadow-slate-100/25
-  bg-gray-950 text-slate-50 dark:bg-slate-200
-  dark:text-slate-700 animate-bounce
-  after:absolute after:w-0 after:h-0 after:border-4 after:top-7
-  after:left-1/2 after:-translate-x-1/2 after:rotate-45
-  after:shadow-md after:shadow-gray-950/25 after:border-gray-950
-  after:dark:shadow-slate-100/25 after:dark:border-slate-200;
+  @apply invisible absolute -top-10 animate-bounce
+  whitespace-nowrap rounded-md bg-gray-950 px-2 py-1
+  text-center text-slate-50 shadow-md
+  shadow-gray-950/25 after:absolute after:left-1/2
+  after:top-7 after:h-0
+  after:w-0 after:-translate-x-1/2 after:rotate-45 after:border-4 after:border-gray-950
+  after:shadow-md after:shadow-gray-950/25 group-hover:visible
+  dark:bg-slate-200 dark:text-slate-700 dark:shadow-slate-100/25
+  after:dark:border-slate-200 after:dark:shadow-slate-100/25;
 }
 
 .link-facebook {
@@ -97,14 +97,10 @@
   background-color: #554488;
 }
 .link-instagram {
-  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
-  radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
-  radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
-  radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
-  radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
-  radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
-  radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
-  linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 }
 .link-linkedin {
   background-color: #0077b5;
@@ -142,7 +138,7 @@
   background-color: #0095ff;
 }
 .link-stack-overflow {
-  background-color: #f48024;  
+  background-color: #f48024;
 }
 .link-discord {
   background-color: #7289da;
@@ -196,7 +192,7 @@
 }
 .link-bitbucket {
   background-color: #2684ff;
-  background: linear-gradient(45deg, #2684ff,#0154ce);
+  background: linear-gradient(45deg, #2684ff, #0154ce);
 }
 .link-bandcamp {
   background-color: #61929c;
@@ -211,7 +207,7 @@
   background-color: #e60023;
 }
 .link-strava {
-  background-color: #fc4C02;
+  background-color: #fc4c02;
 }
 .link-untappd {
   background-color: #ffcf0d;
@@ -223,7 +219,7 @@
   background-color: #000;
 }
 .link-foursquare {
-  background-color: #fA4778;
+  background-color: #fa4778;
 }
 .link-check-mark {
   background-color: #8b5cf6;

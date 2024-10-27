@@ -1,4 +1,4 @@
-/*! L1nkr v1.8.6 | MIT License | https://github.com/Chrede88/L1nkr */
+/*! L1nkr v1.9.0 | MIT License | https://github.com/Chrede88/L1nkr */
 
 /*! tailwindcss v3.4.0 | MIT License | https://tailwindcss.com */
 
@@ -918,8 +918,8 @@ video {
 
 .tooltip::after {
   position: absolute;
-  top: 1.75rem;
   left: 50%;
+  top: 1.75rem;
   height: 0px;
   width: 0px;
   --tw-translate-x: -50%;
@@ -979,14 +979,10 @@ video {
 }
 
 .link-instagram {
-  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
-  radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
-  radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
-  radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
-  radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
-  radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
-  radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
-  linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 }
 
 .link-linkedin {
@@ -1107,7 +1103,7 @@ video {
 
 .link-bitbucket {
   background-color: #2684ff;
-  background: linear-gradient(45deg, #2684ff,#0154ce);
+  background: linear-gradient(45deg, #2684ff, #0154ce);
 }
 
 .link-bandcamp {
@@ -1127,7 +1123,7 @@ video {
 }
 
 .link-strava {
-  background-color: #fc4C02;
+  background-color: #fc4c02;
 }
 
 .link-untappd {
@@ -1143,7 +1139,7 @@ video {
 }
 
 .link-foursquare {
-  background-color: #fA4778;
+  background-color: #fa4778;
 }
 
 .link-check-mark {

@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [1.9.0] - 2024-10-27
+
+### Added
+- Added default `ai.txt`. The default is to disallow LLM training on everything.
+  Change this by adding a `./static/ai.txt` file to your repo.
+
+### Hugo
+- Bumped to v0.136.5
+
+### Go
+- Bumped to v1.23.2
+
 ## [1.8.6] - 2024-03-19
 
 ### Hugo
@@ -145,7 +157,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Emoji support for a fun design
 - More than 30 supported brand links
 
-[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.8.6...HEAD
+[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.9.0...HEAD
+[1.9.0]: https://github.com/Chrede88/L1nkr/compare/v1.8.6...v1.9.0
 [1.8.6]: https://github.com/Chrede88/L1nkr/compare/v1.8.5...v1.8.6
 [1.8.5]: https://github.com/Chrede88/L1nkr/compare/v1.8.4...v1.8.5
 [1.8.4]: https://github.com/Chrede88/L1nkr/compare/v1.8.3...v1.8.4
