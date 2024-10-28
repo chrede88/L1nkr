@@ -128,18 +128,19 @@ Links are defined by the name (i.e. "github" or "facebook"). The names must matc
 ### Supported Link Icons
 | **Supported Links** | **Supported Links** | **Supported Links** | **Supported Links** |
 | --- | --- | --- | --- |
-| amazon | apple | bandcamp | bitbucket | 
+| amazon | apple | bandcamp | bitbucket |
 | bluesky | check-mark | codepen | dev |
 | discord | dribbble | email | etsy |
 | facebook | flickr | foursquare | github |
 | gitlab | google | instagram | keybase |
 | kickstarter | link | linkedin | mastodon |
-| medium | orcid | patreon | paypal | pinterest |
-| reddit | signal | skype | slack |
-| snapchat | soundcloud | spotify | stack-exchange |
-| stack-overflow | strava | telegram | tiktok |
-| tumblr | twitch | untappd | website |
-| whatsapp | windows | x-twitter | youtube |
+| medium | orcid | patreon | paypal |
+| PGP-Key | pinterest | reddit | signal |
+| skype | slack | snapchat | soundcloud |
+| spotify | stack-exchange |stack-overflow | strava |
+| telegram | tiktok | tumblr | twitch |
+| untappd | website |whatsapp | windows |
+| x-twitter | youtube |
 
 
 ### Custom Link Icons
@@ -151,7 +152,7 @@ If you're using the colorful color scheme, the background color will be the tail
   background-color: #6366f1; /* Hex color code */
 }
 ```
-Where `nameOfIcon` is be the name of the custom `.svg` file.
+Where `nameOfIcon` is the name of the custom `.svg` file.
 
 #### SVG Icon Cheatsheet
 Make sure that your custom svg icons doesn't have a fixed size. I.e. set the `width` and `height` to:
