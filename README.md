@@ -135,7 +135,7 @@ Links are defined by the name (i.e. "github" or "facebook"). The names must matc
 | gitlab | google | instagram | keybase |
 | kickstarter | link | linkedin | mastodon |
 | medium | orcid | patreon | paypal |
-| pgp-key | pinterest | reddit | signal |
+| PGP-Key | pinterest | reddit | signal |
 | skype | slack | snapchat | soundcloud |
 | spotify | stack-exchange |stack-overflow | strava |
 | telegram | tiktok | tumblr | twitch |
