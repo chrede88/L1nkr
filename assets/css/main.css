@@ -1,4 +1,4 @@
-/*! L1nkr v1.9.0 | MIT License | https://github.com/Chrede88/L1nkr */
+/*! L1nkr v1.9.1 | MIT License | https://github.com/Chrede88/L1nkr */
 
 @tailwind base;
 @tailwind components;
@@ -242,6 +242,7 @@
   background-color: #f25022;
   background: conic-gradient(#7fba00 0% 25%, #ffb900 25% 50%, #00a4ef 50% 75%, #f25022 75% 100%);
 }
-.link-pgp-key, .link-PGP-Key {
+.link-pgp-key,
+.link-PGP-Key {
   background-color: #a13c94;
 }
