@@ -242,6 +242,6 @@
   background-color: #f25022;
   background: conic-gradient(#7fba00 0% 25%, #ffb900 25% 50%, #00a4ef 50% 75%, #f25022 75% 100%);
 }
-.link-PGP-Key {
+.link-PGP-Key, .link-PGP-Key {
   background-color: #a13c94;
 }
