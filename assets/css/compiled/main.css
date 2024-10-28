@@ -1169,6 +1169,10 @@ video {
   background: conic-gradient(#7fba00 0% 25%, #ffb900 25% 50%, #00a4ef 50% 75%, #f25022 75% 100%);
 }
 
+.link-pgp-key {
+  background-color: #a13c94;
+}
+
 @media (hover: hover) and (pointer: fine) {
   .hover\:text-indigo-500:hover {
     --tw-text-opacity: 1;
