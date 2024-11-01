@@ -1174,6 +1174,15 @@ video {
   background-color: #a13c94;
 }
 
+.link-ssh-key,
+.link-SSH-Key {
+  background-color: #3C62A1;
+}
+
+.link-certifications {
+  background-color: #3CA149;
+}
+
 @media (hover: hover) and (pointer: fine) {
   .hover\:text-indigo-500:hover {
     --tw-text-opacity: 1;
