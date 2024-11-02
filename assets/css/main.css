@@ -1,4 +1,4 @@
-/*! L1nkr v1.9.1 | MIT License | https://github.com/Chrede88/L1nkr */
+/*! L1nkr v1.9.2 | MIT License | https://github.com/Chrede88/L1nkr */
 
 @tailwind base;
 @tailwind components;
@@ -248,8 +248,8 @@
 }
 .link-ssh-key,
 .link-SSH-Key {
-  background-color: #3C62A1;
+  background-color: #3c62a1;
 }
 .link-certifications {
-  background-color: #3CA149;
+  background-color: #3ca149;
 }

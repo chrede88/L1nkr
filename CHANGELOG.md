@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [1.9.2] - 2024-11-02
+
 ### Added
 - New icon `SSH-key`
 - New icon `Certifications`
@@ -166,7 +168,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Emoji support for a fun design
 - More than 30 supported brand links
 
-[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.9.0...HEAD
+[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.9.2...HEAD
+[1.9.2]: https://github.com/Chrede88/L1nkr/compare/v1.9.1...v1.9.2
+[1.9.1]: https://github.com/Chrede88/L1nkr/compare/v1.9.0...v1.9.1
 [1.9.0]: https://github.com/Chrede88/L1nkr/compare/v1.8.6...v1.9.0
 [1.8.6]: https://github.com/Chrede88/L1nkr/compare/v1.8.5...v1.8.6
 [1.8.5]: https://github.com/Chrede88/L1nkr/compare/v1.8.4...v1.8.5
