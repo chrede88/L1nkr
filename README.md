@@ -24,7 +24,7 @@ L1nkr is a simple LinkTree type [Hugo](https://gohugo.io) theme. The theme is de
 - Automatic dark mode (based on system setttings).
 - Colorful or monochromatic link color scheme.
 - Emoji support for a fun design.
-- More than 40 supported brand links.
+- More than 50 supported brand links.
 - Healthcheck endpoint (/healthcheck.json).
 
 <p align="center">
