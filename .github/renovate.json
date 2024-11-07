@@ -24,7 +24,10 @@
     {
       "matchManagers": ["gomod"],
       "matchDepTypes": ["indirect"],
-      "enabled": true,
+      "enabled": true
+    },
+    {
+      "matchDatasources": ["golang-version"],
       "rangeStrategy": "bump"
     },
     {
