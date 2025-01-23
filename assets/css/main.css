@@ -1,8 +1,26 @@
 /*! L1nkr v1.9.2 | MIT License | https://github.com/Chrede88/L1nkr */
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@config '../../tailwind.config.js';
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
 
 .grid-cols-md-center2 {
   @apply md:grid-cols-center2;
@@ -51,7 +69,7 @@
 }
 
 .link-mono {
-  @apply flex h-[22] w-[22] transform items-center
+  @apply flex h-22 w-22 transform items-center
   justify-center rounded-full transition duration-300 ease-out hover:scale-125;
 }
 
@@ -80,7 +98,7 @@
   after:w-0 after:-translate-x-1/2 after:rotate-45 after:border-4 after:border-gray-950
   after:shadow-md after:shadow-gray-950/25 group-hover:visible
   dark:bg-slate-200 dark:text-slate-700 dark:shadow-slate-100/25
-  after:dark:border-slate-200 after:dark:shadow-slate-100/25;
+  dark:after:border-slate-200 dark:after:shadow-slate-100/25;
 }
 
 .link-facebook {
