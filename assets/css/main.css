@@ -1,6 +1,6 @@
-/*! L1nkr v1.9.2 | MIT License | https://github.com/Chrede88/L1nkr */
+/*! L1nkr v1.10.0 | MIT License | https://github.com/Chrede88/L1nkr */
 
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @config '../../tailwind.config.js';
 
@@ -63,14 +63,11 @@
 }
 
 .link {
-  @apply flex h-28 w-28 transform items-center
-  justify-center rounded-full border-2 border-slate-50
-  bg-indigo-500 transition duration-300 ease-out hover:scale-125;
+  @apply flex h-28 w-28 transform items-center justify-center rounded-full border-2 border-slate-50 bg-indigo-500 transition duration-300 ease-out hover:scale-125;
 }
 
 .link-mono {
-  @apply flex h-22 w-22 transform items-center
-  justify-center rounded-full transition duration-300 ease-out hover:scale-125;
+  @apply flex h-22 w-22 transform items-center justify-center rounded-full transition duration-300 ease-out hover:scale-125;
 }
 
 .link_svg {
@@ -90,15 +87,7 @@
 }
 
 .tooltip {
-  @apply invisible absolute -top-10 animate-bounce
-  whitespace-nowrap rounded-md bg-gray-950 px-2 py-1
-  text-center text-slate-50 shadow-md
-  shadow-gray-950/25 after:absolute after:left-1/2
-  after:top-7 after:h-0
-  after:w-0 after:-translate-x-1/2 after:rotate-45 after:border-4 after:border-gray-950
-  after:shadow-md after:shadow-gray-950/25 group-hover:visible
-  dark:bg-slate-200 dark:text-slate-700 dark:shadow-slate-100/25
-  dark:after:border-slate-200 dark:after:shadow-slate-100/25;
+  @apply invisible absolute -top-10 animate-bounce rounded-md bg-gray-950 px-2 py-1 text-center whitespace-nowrap text-slate-50 shadow-md shadow-gray-950/25 group-hover:visible after:absolute after:top-7 after:left-1/2 after:h-0 after:w-0 after:-translate-x-1/2 after:rotate-45 after:border-4 after:border-gray-950 after:shadow-md after:shadow-gray-950/25 dark:bg-slate-200 dark:text-slate-700 dark:shadow-slate-100/25 dark:after:border-slate-200 dark:after:shadow-slate-100/25;
 }
 
 .link-facebook {

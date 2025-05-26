@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [1.10.0] - 2025-05-26
+
+### Added
+- New icon `codeberg`
+- New icon `newsletter`
+- New icon `pixelfed`
+- New icon `substack`
+
+### Hugo
+- Bumped to v0.147.5
+
+### Go
+- Bumped to v1.24.3
+
 ## [1.9.2] - 2024-11-02
 
 ### Added
@@ -168,7 +182,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Emoji support for a fun design
 - More than 30 supported brand links
 
-[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.9.2...HEAD
+[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.10.0...HEAD
+[1.10.0]: https://github.com/Chrede88/L1nkr/compare/v1.9.2...v1.10.0
 [1.9.2]: https://github.com/Chrede88/L1nkr/compare/v1.9.1...v1.9.2
 [1.9.1]: https://github.com/Chrede88/L1nkr/compare/v1.9.0...v1.9.1
 [1.9.0]: https://github.com/Chrede88/L1nkr/compare/v1.8.6...v1.9.0

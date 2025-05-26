@@ -1,6 +1,6 @@
 {
   "name": "l1nkr",
-  "version": "1.9.2",
+  "version": "1.10.0",
   "description": "L1nkr theme for Hugo",
   "main": "index.js",
   "scripts": {
