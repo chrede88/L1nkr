@@ -3,10 +3,10 @@
 ############################
 
 author:
-  name: "L1nkr"
+  name: 'L1nkr'
   image: author.png
-  greeting: "A simple LinkTree theme for Hugo :evergreen_tree:"
-  icon: ":wave:"
+  greeting: 'A simple LinkTree theme for Hugo :evergreen_tree:'
+  icon: ':wave:'
 
 ############################
 ## Links
@@ -64,6 +64,10 @@ links:
   # - PGP-Key: https://github.com/chrede88/L1nkr
   # - SSH-Key: https://github.com/chrede88/L1nkr
   # - certifications: https://github.com/chrede88/L1nkr
+  # - codeberg: https://github.com/chrede88/L1nkr
+  # - newsletter: https://github.com/chrede88/L1nkr
+  # - pixelfed: https://github.com/chrede88/L1nkr
+  # - substack: https://github.com/chrede88/L1nkr
 
 ##############################
 ## Monochromatic color scheme
@@ -81,7 +85,7 @@ monochrome: true
 icontext: true
 
 ###########################
-## Tooltip 
+## Tooltip
 ###########################
 
 # add tooltips to the links
@@ -98,7 +102,7 @@ columns: 6
 ## OpenGraph & Twitter Cards
 ###############################
 
-title: "L1nkr"
-description: "Demo site build with L1nkr & Hugo"
+title: 'L1nkr'
+description: 'Demo site build with L1nkr & Hugo'
 images:
   - thumbnail.png
