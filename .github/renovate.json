@@ -50,7 +50,7 @@
       "description": ["Go Group"],
       "groupName": "Go",
       "matchPackageNames": ["/go/", "/golang/"],
-      "matchDatasources": ["github-tags", "golang-version"],
+      "matchDatasources": ["github-tags", "golang-version", "custom"],
       "group": {
         "commitMessageTopic": "{{{groupName}}} group"
       },
