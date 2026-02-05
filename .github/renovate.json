@@ -12,7 +12,7 @@
   "timezone": "Europe/Zurich",
   "customManagers": [
     {
-      "description": "Update Hugo/Go version in Github actions",
+      "description": "Update Hugo version in Github actions",
       "customType": "regex",
       "managerFilePatterns": ["/^.github/(?:workflows|actions)/.+\\.ya?ml$/"],
       "matchStrings": ["datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n.*?'(?<currentValue>.*)'\n"],
@@ -45,17 +45,6 @@
     {
       "matchFileNames": ["**/*"],
       "addLabels": ["auto-merge"]
-    },
-    {
-      "description": ["Go Group"],
-      "groupName": "Go",
-      "matchPackageNames": ["/go/", "/golang/"],
-      "matchDatasources": ["github-tags", "golang-version", "custom"],
-      "group": {
-        "commitMessageTopic": "{{{groupName}}} group"
-      },
-      "separateMinorPatch": true,
-      "minimumGroupSize": 2
     }
   ]
 }
