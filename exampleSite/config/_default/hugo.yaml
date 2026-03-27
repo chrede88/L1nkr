@@ -19,6 +19,6 @@ module:
 
 enableEmoji: true
 disableKinds: ['taxonomy', 'term']
-languageCode: 'en-us'
+locale: 'en-us'
 
 
