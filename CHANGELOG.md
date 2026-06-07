@@ -207,7 +207,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Emoji support for a fun design
 - More than 30 supported brand links
 
-[unreleased]: https://github.com/Chrede88/L1nkr/compare/v1.10.0...HEAD
+[unreleased]: https://github.com/Chrede88/L1nkr/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/Chrede88/L1nkr/compare/v1.10.0...v2.0.0
 [1.10.0]: https://github.com/Chrede88/L1nkr/compare/v1.9.2...v1.10.0
 [1.9.2]: https://github.com/Chrede88/L1nkr/compare/v1.9.1...v1.9.2
 [1.9.1]: https://github.com/Chrede88/L1nkr/compare/v1.9.0...v1.9.1
