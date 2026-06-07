@@ -6,6 +6,31 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-06-07
+
+## Breaking Changes
+- Bumping minimum hugo version to `v0.158.0`.
+- Change `LanguageCode` to `locale` in main config file (`hugo.yaml`).
+- Theme major version. `go.mod` & `module.yaml` configuration files needs to be updated.
+  Change the `require` line to the following in `go.mod`:
+  ```
+  require github.com/chrede88/L1nkr/v2 v2.0.0
+  ```
+
+  Change the module url in `module.yaml` to:
+  ```yaml
+  imports:
+    - path: github.com/chrede88/L1nkr/v2
+  ```
+
+  Notice the `v2` in the path for both files.
+
+### Hugo
+- Bumped to v0.162.1
+
+### Go
+- Bumped to v1.26.4
+
 ## [1.10.0] - 2025-05-26
 
 ### Added

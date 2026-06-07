@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/v/release/chrede88/L1nkr?color=blue" alt="Release">
-  <img src="https://img.shields.io/badge/min_Hugo-v0.119.0-blue" alt="Hugo version">
+  <img src="https://img.shields.io/badge/min_Hugo-v0.158.0-blue" alt="Hugo version">
   <img src="https://github.com/chrede88/L1nkr/actions/workflows/testBuild.yml/badge.svg" alt="Main Branch Build">
   <img src="https://github.com/chrede88/L1nkr/actions/workflows/buildDeployLighthouse.yml/badge.svg" alt="Main Branch Build">
 </p>
